@@ -5,9 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body class="hello">
-    Hello
+  <body>
+    <header class="content_section-header header">
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a>главная</a>
+          </li>
+          <li class="header__links-list-item">
+            <a href="#1">посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a href="#1">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header-logo">
+        <img src="./images/logo-black.svg" alt="Логотип сайта" class="header__logo-img"/>
+      </a>
+      <div class="header-contacts">
+        <a href="tel:+79995555555">+9(999)555 5555</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <address class="address__not-cursiv">
+          наб. Принсенграхт 263-<br />
+          265, Амстердам
+        </address>
+      </div>
+    </header>
+    <main>
+      <section class="content_section cover cover-background">
+        <h1 class="cover-title">
+            <span class="accent_span-first">о
+              <span class="letter-spacing-first">но</span>
+            </span>
+            <span class="accent_span-second">теб
+              <span class="letter-spacing-second">е</span>
+            </span>
+            <span class="accent_span-third"><span class="first-letter-spacing-third">н</span>ад<span class="second-letter-spacing-third">о</span></span>
+        </h1>
+        <div class="cover-footer">
+          <p class="cover-footer-p">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <a href="#2">
+            <button class="cover-footer-button">
+              Сделать ставку
+            </button>
+          </a>
+        </div>
+      </section>
+      <section class="content_section lots">
+
+        <section>
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+        </section>
+      </section>
+      <section class="content_section about"></section>
+    </main>
+    <footer class="content_section footer"></footer>
   </body>
 </html>
