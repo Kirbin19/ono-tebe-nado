@@ -66,12 +66,11 @@
   font-size: 18px;
   line-height: 24px;
   text-underline-offset: 4px;
-  margin: 2px 0px 0px 1px;
+
 }
 
 .header-contacts-position {
-  position: relative;
-  right: -187px;
+    margin: 3px 0px 0px 188px;
 }
 
 .address__not-cursiv {
@@ -86,10 +85,10 @@
 }
 
 .header__menu {
-  position: relative;
+  /* position: relative;
   top: 2px;
-  left: 27px;
-  margin: 0px 0px 0px 0px;
+  left: 27px; */
+  margin: 3px 0px 0px 27px;
 }
 
 .content_section-header {
@@ -393,7 +392,11 @@
 .footer__social {
   margin: 3px 0px 0px 0px;
 }
-  
+
+.footer-position {
+  margin: 2px 0px 0px 0px;
+}
+
 .overlay {
   position: absolute;
   top: 0;
